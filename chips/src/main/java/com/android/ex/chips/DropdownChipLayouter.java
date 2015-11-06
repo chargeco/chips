@@ -429,8 +429,10 @@ public class DropdownChipLayouter {
             destinationTypeView = (TextView) view.findViewById(getDestinationTypeResId());
             imageView = (ImageView) view.findViewById(getPhotoResId());
             deleteView = (ImageView) view.findViewById(getDeleteResId());
-            topDivider = view.findViewById(R.id.chip_autocomplete_top_divider);
-            bottomDivider = view.findViewById(R.id.chip_autocomplete_bottom_divider);
+//            topDivider = view.findViewById(R.id.chip_autocomplete_top_divider);
+            topDivider = null;
+//            bottomDivider = view.findViewById(R.id.chip_autocomplete_bottom_divider);
+            bottomDivider = null;
         }
     }
 }
