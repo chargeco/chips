@@ -119,10 +119,10 @@ public class DropdownChipLayouter {
                     }
                 }
 
-                if (!entry.isFirstLevel()) {
-                    displayName = null;
-                    showImage = false;
-                }
+//                if (!entry.isFirstLevel()) {
+//                    displayName = null;
+//                    showImage = false;
+//                }
 
                 // For BASE_RECIPIENT set all top dividers except for the first one to be GONE.
                 if (viewHolder.topDivider != null) {
